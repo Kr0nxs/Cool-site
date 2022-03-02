@@ -3,9 +3,9 @@
 // all possible options will be stored
 $config = array();
 
-$config['website-name'] = "Online Web Proxy";
+$config['website-name'] = "Cool site";
 $config['website-url'] = "http://localhost/proxy";
-$config['website-description'] = "PHP - Online Web Proxy";
+$config['website-description'] = "PHP - Online Web";
 
 // a unique key that identifies this application - DO NOT LEAVE THIS EMPTY!
 $config['app_key'] = '04e8155d1ddc8d00c578a7ffc0018692';
@@ -33,10 +33,6 @@ $config['plugins'] = array(
 	'UrlForm',
 	// site specific plugins below
 	'Youtube',
-	'DailyMotion',
-	'RedTube',
-	'XHamster',
-	'XVideos',
 	'Twitter'
 );
 
